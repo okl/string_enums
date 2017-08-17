@@ -19,7 +19,7 @@ add checks, writers, and constants for each value.".freeze
     "LICENSE",
     "README.md"
   ]
-  s.files = Dir.glob("{bin,lib}/**/*") + %w(LICENSE README.md)
+  s.files = Dir.glob("{bin,lib}/**/*") + %w(LICENSE README.md CHANGELOG.md)
   s.homepage = "http://github.com/okl/string_enums".freeze
   s.licenses = ["BSD 3-clause".freeze]
   s.rubygems_version = "2.6.11".freeze
